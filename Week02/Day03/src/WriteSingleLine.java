@@ -18,7 +18,7 @@ public class WriteSingleLine {
       List<String> content = new ArrayList();
       content.add(myName);
       try {
-        Path filePath = Paths.get("my-fil7e.txt");
+        Path filePath = Paths.get("my-file.txt");
         Files.write(filePath, content);
       }
       catch (IOException e) {
