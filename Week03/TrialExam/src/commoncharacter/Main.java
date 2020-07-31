@@ -11,7 +11,8 @@ public class Main {
     try {
       Path filePath = Paths.get("exam-trial-basics\\cli-exercise\\projects\\countchar.txt");
       List<String> readFiles = Files.readAllLines(filePath);
-      System.out.println(readFiles.toString());
+      String read = readFiles.toString();
+      System.out.println(read);
     } catch (Exception e) {
       System.out.println("File does not exist!!");
     }
